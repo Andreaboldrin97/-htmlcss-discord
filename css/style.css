@@ -3,13 +3,30 @@
     padding :0;
     box-sizing: border-box;
 }
+h1{
+    font-size: 40px;
+    margin: 25px;
+} 
+h3 {
+    color: rgb(99, 126, 209);
+}
+.btn-size{
+    padding: 15px;
+}
+.btn-color{
+    background-color: rgb(99, 126, 209);
+}
+.btn-browser{
+    background-color: black;
+    color: white;
+}
 header{
     background-color: rgb(54, 93, 224);
     display: flex;
 }
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 5px auto;
    align-items: center;
 }
 .flex-content{
@@ -43,15 +60,19 @@ li a{
 }
 .section-head{
     background-image: url(../img/jumbo.png);
-    height: 250px;
-    background-size: cover;
+    height: 400px;
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
     padding: 20px;
 }
 .box{
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
     color: white;
+    margin-top: 5%;
+    line-height: 30px;
 }
 /*main*/
 .sectionCol{
@@ -62,44 +83,66 @@ li a{
     width: 60%;
 }
 .text-area{
-    flex-basis: 40%;
+    width: 30%;
     height: 250px;
 }
 .articol{
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+}
+.articol h2{
+    margin-bottom: 20px;
+    background-image: url(../img/stars.svg);
 }
 .section-color{
-    background-color: rgba(189, 188, 188, 0.643);
-}
+    background-color: rgba(223, 223, 223, 0.643);
 select {
     border: none;
     border-radius: 4px;
 }
+.text-area p{
+    margin-left: 25px;
+}
 /*footer*/
 footer{
     background-color: black ;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 .element{
     margin-bottom: 10px;
+    line-height: 30px;
 }
 .element-img{
-    height: 250px;
-    background-color: pink;
+    height: 330px;
     flex-grow: 2;
 }
+.element-img h2{
+    color: rgb(99, 126, 209);
+}
+.element-img img{
+    width: 30px;
+}
+.element-img form{
+    display: inline-block;
+    vertical-align: 4px;
+}
 .section-item{
-    background-color: cadetblue;
-    height: 250px; 
+    height: 330px; 
     flex-grow: 1;
-    border: 1px dotted white;
 }
 hr{
+    width: 80%;
+    margin: 0 auto;
     border-color:  rgba(189, 188, 188, 0.643);;
 }
+.social{
+    color: white;
+}
+.social i{
+    margin-right: 10px;
+}
 .section-footer{
-    background-color: aquamarine;
     justify-content: space-between;
     padding: 10px;
     margin-top: 10px;
