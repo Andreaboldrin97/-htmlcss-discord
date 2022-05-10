@@ -15,6 +15,7 @@ h3 {
 }
 .btn-color{
     background-color: rgb(99, 126, 209);
+    color: white;
 }
 .btn-browser{
     background-color: black;
@@ -74,6 +75,9 @@ li a{
     margin-top: 5%;
     line-height: 30px;
 }
+.banner{
+    margin: 10px;
+}
 /*main*/
 .sectionCol{
     background-color: white;
@@ -104,6 +108,9 @@ li a{
 }
 .text-area p{
     margin-left: 25px;
+}
+button i{
+    margin-right: 5px;
 }
 /*footer*/
 footer{
