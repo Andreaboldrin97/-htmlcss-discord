@@ -5,7 +5,7 @@
 }
 h1{
     font-size: 40px;
-    margin: 25px;
+    margin: 0 25px 25px 25px;
 } 
 h3 {
     color: rgb(99, 126, 209);
@@ -77,7 +77,7 @@ li a{
 /*main*/
 .sectionCol{
     background-color: white;
-    padding: 20px;
+    padding: 40px;
 }
 .img{
     width: 60%;
@@ -97,7 +97,8 @@ li a{
 }
 .section-color{
     background-color: rgba(223, 223, 223, 0.643);
-select {
+}
+.select {
     border: none;
     border-radius: 4px;
 }
