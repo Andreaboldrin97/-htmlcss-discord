@@ -96,8 +96,11 @@ li a{
     text-align: center;
 }
 .articol h2{
-    margin-bottom: 20px;
     background-image: url(../img/stars.svg);
+    height: 50px;
+    margin: 0 auto;
+    width: 50%;
+
 }
 .section-color{
     background-color: rgba(223, 223, 223, 0.643);
